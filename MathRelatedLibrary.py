@@ -9,3 +9,6 @@ print("for calculate round:  ", round(3.5))  # round() dara kacha kachi number t
 # new two fun below
 print("print floor : ", floor(3.7))  # That means this function show below of 3.7
 print("print ceil : ", ceil(3.7))  # That means this function show above of 3.7
+
+print((lambda x: x if x != 0 else "ok")(2))
+
